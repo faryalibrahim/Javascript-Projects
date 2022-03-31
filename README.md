@@ -35,3 +35,29 @@ Then add a commit message
 ## How do I get other peoples changes that they have made in the remote repo?
 
 - git pull
+
+## How to create a new branch in Github
+
+-git branch -b name-of-branch
+
+## list the branch
+
+-git branch
+
+## how to merge a feature branch to the main branch
+
+-you should be on the main branch in order to do this;
+git merge name-of-feature-branch
+
+## moving from one branch to another branch
+
+-git checkout name-of-branch
+
+## Pull request/ Merge Request
+Some companies use continuous integration. This is when a new build of the application is triggered when changes are made to the main/master branch.  
+When developing new features / modify the code base, we want to make sure that we don't break the live aplication. We do this by creating a feature branch. 
+
+Any changes in code which you want to deploy in the live application you always put a pull or merge request, (where other developer check your work before approving) in order it to be added to the main branch.
+
+## how to change the branch name
+git branch -m old-name new-name   
