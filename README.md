@@ -61,3 +61,6 @@ Any changes in code which you want to deploy in the live application you always 
 
 ## how to change the branch name
 git branch -m old-name new-name   
+
+## git pull:
+git fetch and git merge
